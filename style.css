@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-decoration: none;
+  background:
+    linear-gradient(
+      rgba(152, 36, 211, 0.600),rgba(136, 30, 228, 0.3)
+    ),
+    url(/image-fundo.jpg)
+  
+}
+
+main {
+display: flex;
+justify-content: center;
+padding: 100px;
+}
+
+.section-principal {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 1000px ;
+  height: 540px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 120px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.imagem {
+  width: 500px;
+  height: 280px;
+  padding-right: 100px;
+}
+
+.input-nome {
+  background-color: rgb(233, 228, 228);
+  border-radius: 10px;
+  border: 0.5px solid white;
+  width: 240px;
+  height: 30px;
+}
+
+.input-email {
+  background-color: rgb(233, 228, 228);
+  border-radius: 10px;
+  border: 0.5px solid white;
+  width: 240px;
+  height: 30px;
+}
+
+.area-mensagem {
+  background-color: rgb(233, 228, 228);
+  border-radius: 10px;
+  border: 0.5px solid white;
+  width: 240px;
+  height: 150px;
+}
+
+::placeholder {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Sarala', sans-serif;
+}
+
+.botao {
+  width: 240px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(152, 36, 211);
+  background-color: rgba(152, 36, 211, 0.700);
+  font-family: 'Sarala',sans-serif;
+}
+
+.titulo-unico {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Sarala',sans-serif;
+
+}
